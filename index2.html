@@ -7,6 +7,7 @@
     <link rel="stylesheet"href="style1.css"/>
 </head>
 <body>
+   
     <div class="container">
         <div class="calculator">
             <form>
@@ -14,7 +15,9 @@
                     <input type="text"name="display">
                 </div>
                 <div>
-                    <input type="button"  onclick="display.value=''"class="operator">
+
+                    
+                    <input type="button" value="Ac" onclick=" display.value=''"class="operator">
                     <input type="button" value="De" onclick="display.value=display.value.tostring().slice(0,-1)"class="operator">
                     <input type="button"  value="."  onclick="display.value+= '.'"class="operator">
                     <input type="button" value="/"  onclick="display.value+= '/'"class="operator">
@@ -47,8 +50,10 @@
                 
 
             </div>
-    
+            
+            
 
+    
             </form>
         </div>
 
