@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arithmetic Operators</title>
+  <link rel="stylesheet" href="add.css">
+</head>
+<body>
+  <h1>Task-1</h1>
+  <h1>Drop down list</h1>
+  <input id="Number" type="text" placeholder="Enter first number" /><br/><br/>
+  <input id="Number2" type="text" placeholder="Enter second number" /><br/><br/>
+  <select id="Operators">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select><br/><br/>
+  <button onclick="calculate()">Calculate</button>
+  <p id="Result"></p>
+
+
+
+
+
+  <form name="f1">
+    <div>
+    
+    <input id="Number" type="text" placeholder="Enter first number" /><br/><br/>
+  <input id="Number2" type="text" placeholder="Enter second number" /><br/><br/>
+    </div>
+ 
+    <div>
+      Result:<input type="text"name="t3"><br>
+     
+      <input type="button" name="b1" value="Add" onclick="add()">
+      <input type="button" name="b2" value="Subtract" onclick="sub()">
+      <input type="button" name="b3" value="Multiply" onclick="mul()">
+      <input type="button" name="b4" value="Divide" onclick="div()">
+    </div>
+  </form>
+ 
+  <script src="add.js"></script>
+</body>
+</html>
